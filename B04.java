@@ -26,7 +26,7 @@ public class B04 {
 		
 		double result = (double)num * num2;	// 소득세
 		
-		System.out.println("연봉 금액에 대한 소득세는 "+(int)result+"입니다.");
+		System.out.println(" 연봉 금액에 대한 소득세는 "+(int)result+"입니다.");
 	}
 
 }
