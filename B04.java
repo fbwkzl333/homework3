@@ -12,16 +12,16 @@ public class B04 {
 		
 		double num2 = 0; // 소득세 알아낼 녀석
 		if(num >= 80000000){
-			num2 = 37.0;
+			num2 = 3.7;
 		}
 			else if(num >= 40000000){
-			num2 = 28.0;
+			num2 = 2.8;
 		}
 			else if(num >= 10000000){
-			num2 = 19.0;
+			num2 = 1.9;
 		}
 		else{
-			num2 = 9.5;
+			num2 = 0.95;
 		}
 		
 		double result = (double)num * num2;	// 소득세
